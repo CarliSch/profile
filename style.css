@@ -1,12 +1,27 @@
 h1 {
   color: #091353;
   font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  font-size: 40;
+  font-weight: 500;
+  font-size: 26px;
   text-align: center;
+
 }
 
 .latin-writting{
+  font-family: 'Zen Old Mincho', serif;
+  font-size: 40px;
+  margin-right: 20px;
+
+}
+
+#founder-line{
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#background-color {
+  background-color: #E6E6E6;
+  box-shadow: 2px 2px 3px
 
 }
 
@@ -15,6 +30,17 @@ h2, h3 {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   text-decoration: underline;
+}
+
+.motivational-qote {
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 30px;
+  font-weight: 100;
+
+}
+
+body {
+ background-color: #FBFBFB;
 }
 
 a {
@@ -49,8 +75,8 @@ a:hover {
 }
 
 #my_foto {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
@@ -66,6 +92,11 @@ a:hover {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+}
+
+#background {
+  box-shadow: 1px 1px 3px #6D9886;
+  padding: 10px 5px;
 }
 
 @media (max-width: 960px) {
